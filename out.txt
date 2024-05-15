@@ -1,0 +1,288 @@
+
+===========================================
+
+Graph 1 Input:
+4 Vertices
+5 Edges
+Add Edge 1-2
+Add Edge 2-3
+Add Edge 2-4
+Add Edge 3-4
+Add Edge 3-1
+
+Graph 1 Vertices:
+1
+2
+3
+4
+
+Graph 1 Edges
+1-2
+1-3
+2-3
+2-4
+3-4
+
+Graph 1 Matrix:
+0  1  1  0  
+1  0  1  1  
+1  1  0  1  
+0  1  1  0  
+
+Graph 1 Path Build
+Add vertex 1
+Add vertex 2
+Add edge 1-2
+Vertex 1 has already been visited
+Add vertex 3
+Add edge 2-3
+Vertex 1 has already been visited
+Vertex 2 has already been visited
+Add vertex 4
+Add edge 3-4
+
+No Hamiltonian Cycle
+
+===========================================
+
+===========================================
+
+Graph 2 Input:
+6 Vertices
+9 Edges
+Add Edge 1-2
+Add Edge 1-3
+Add Edge 1-6
+Add Edge 3-2
+Add Edge 3-4
+Add Edge 5-2
+Add Edge 5-4
+Add Edge 6-5
+Add Edge 6-4
+
+Graph 2 Vertices:
+1
+2
+3
+4
+5
+6
+
+Graph 2 Edges
+1-2
+1-3
+1-6
+2-3
+2-5
+3-4
+4-5
+4-6
+5-6
+
+Graph 2 Matrix:
+0  1  1  0  0  1  
+1  0  1  0  1  0  
+1  1  0  1  0  0  
+0  0  1  0  1  1  
+0  1  0  1  0  1  
+1  0  0  1  1  0  
+
+Graph 2 Path Build
+Add vertex 1
+Add vertex 2
+Add edge 1-2
+Vertex 1 has already been visited
+Add vertex 3
+Add edge 2-3
+Vertex 1 has already been visited
+Vertex 2 has already been visited
+Add vertex 4
+Add edge 3-4
+Vertex 3 has already been visited
+Add vertex 5
+Add edge 4-5
+Vertex 2 has already been visited
+Vertex 4 has already been visited
+Add vertex 6
+Add edge 5-6
+Add edge 6-1
+
+Hamiltonian Cycle:
+1 2 3 4 5 6 1
+
+===========================================
+
+===========================================
+
+Graph 3 Input:
+5 Vertices
+6 Edges
+Add Edge 1-2
+Add Edge 1-4
+Add Edge 2-3
+Add Edge 2-5
+Add Edge 4-5
+Add Edge 3-4
+
+Graph 3 Vertices:
+1
+2
+3
+4
+5
+
+Graph 3 Edges
+1-2
+1-4
+2-3
+2-5
+3-4
+4-5
+
+Graph 3 Matrix:
+0  1  0  1  0  
+1  0  1  0  1  
+0  1  0  1  0  
+1  0  1  0  1  
+0  1  0  1  0  
+
+Graph 3 Path Build
+Add vertex 1
+Add vertex 2
+Add edge 1-2
+Vertex 1 has already been visited
+Add vertex 3
+Add edge 2-3
+Vertex 2 has already been visited
+Add vertex 4
+Add edge 3-4
+Vertex 1 has already been visited
+Vertex 3 has already been visited
+Add vertex 5
+Add edge 4-5
+
+No Hamiltonian Cycle
+
+===========================================
+
+===========================================
+
+Graph 4 Input:
+5 Vertices
+6 Edges
+Add Edge 1-2
+Add Edge 1-4
+Add Edge 2-3
+Invalid Edge 1-2 Duplicate or Parallel edge
+Add Edge 4-5
+Invalid Edge 2-1 Duplicate or Parallel edge
+Invalid Edge 6-3 Duplicate or Parallel edge
+Add Edge 3-4
+Add Edge 5-2
+
+Graph 4 Vertices:
+1
+2
+3
+4
+5
+
+Graph 4 Edges
+1-2
+1-4
+2-3
+2-5
+3-4
+4-5
+
+Graph 4 Matrix:
+0  1  0  1  0  
+1  0  1  0  1  
+0  1  0  1  0  
+1  0  1  0  1  
+0  1  0  1  0  
+
+Graph 4 Path Build
+Add vertex 1
+Add vertex 2
+Add edge 1-2
+Vertex 1 has already been visited
+Add vertex 3
+Add edge 2-3
+Vertex 2 has already been visited
+Add vertex 4
+Add edge 3-4
+Vertex 1 has already been visited
+Vertex 3 has already been visited
+Add vertex 5
+Add edge 4-5
+
+No Hamiltonian Cycle
+
+===========================================
+
+===========================================
+
+Graph 5 Input:
+Graph has no vertices
+
+===========================================
+
+Graph 6 Input:
+1 Vertices
+0 Edges
+
+Graph 6 Vertices:
+1
+
+Graph 6 Edges
+
+Graph 6 Matrix:
+0  
+
+Graph 6 Path Build
+Add vertex 1
+
+No Hamiltonian Cycle
+
+===========================================
+
+===========================================
+
+Graph 7 Input:
+3 Vertices
+3 Edges
+Add Edge 1-3
+Add Edge 2-1
+Add Edge 2-3
+
+Graph 7 Vertices:
+1
+2
+3
+
+Graph 7 Edges
+1-2
+1-3
+2-3
+
+Graph 7 Matrix:
+0  1  1  
+1  0  1  
+1  1  0  
+
+Graph 7 Path Build
+Add vertex 1
+Add vertex 2
+Add edge 1-2
+Vertex 1 has already been visited
+Add vertex 3
+Add edge 2-3
+Add edge 3-1
+
+Hamiltonian Cycle:
+1 2 3 1
+
+===========================================
+Program has completed. Thank you.
+===========================================
